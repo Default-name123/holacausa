@@ -887,6 +887,159 @@ class PlayState extends MusicBeatState
 		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/script1.lua'))); // It doesn't have to be "script1", "script2", you can put whatever name you want. 
 		#end
 
+      #if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/script2.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/script2.lua')));
+		#end
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/script3.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/script3.lua')));
+		#end
+
+
+#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/script4.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/script4.lua')));
+		#end
+
+#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/script5.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/script5.lua')));
+		#end
+
+#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/script6.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/script6.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/1.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/1.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/2.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/2.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/3.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/3.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/4.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/4.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/5.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/5.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/6.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/6.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/7.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/7.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/8.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/8.lua')));
+		#end
+		
+		
+		#if LUA_ALLOWED
+		var doPush:Bool = false; 
+		if (OpenFlAssets.exists('assets/scripts/9.lua')) {
+		  doPush = true;
+		}
+		
+		if(doPush)
+		luaArray.push(new FunkinLua(Asset2File.getPath('assets/scripts/9.lua')));
+		#end
+		
+		
+		
 		// STAGE SCRIPTS
 		#if (MODS_ALLOWED && LUA_ALLOWED)
 		startLuasOnFolder('stages/' + curStage + '.lua');
